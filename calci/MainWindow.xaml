@@ -1,0 +1,41 @@
+﻿<Window x:Class="calci.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:calci"
+        mc:Ignorable="d"
+        Title="calci" Height="300" Width="600" >
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBox Margin="10,10,10,10" Height="50" Width="250" Name="txtresult" FontSize="30" FontWeight="Bold" FontFamily="Segoe UI" Foreground="#212121" Background="White" BorderBrush="#BDBDBD" BorderThickness="2" TextAlignment="Right" VerticalContentAlignment="Center"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="7" Click="Number_Click" Name="btn7" Width="40" Height="40" Margin="5" FontSize="18" FontWeight="Bold" FontFamily="Segoe UI" Background="#E8F0FE" Foreground="#212121"/>
+            <Button Content="8" Click="Number_Click" Name="btn8" Width="40" Height="40" Margin="5" FontSize="18" FontWeight="Bold" FontFamily="Segoe UI" Background="#E8F0FE" Foreground="#212121"/>
+            <Button Content="9" Click="Number_Click" Name="btn9" Width="40" Height="40" Margin="5" FontSize="18" FontWeight="Bold" FontFamily="Segoe UI" Background="#E8F0FE" Foreground="#212121"/>
+            <Button Content="*" Click="Oper_Click" Name="btnmult" Width="40" Height="40" Margin="5" FontSize="18" FontWeight="Bold" FontFamily="Segoe UI" Background="#FFE0B2" Foreground="#E65100"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="4" Click="Number_Click" Name="btn4" Width="40" Height="40" Margin="5" FontSize="18" FontWeight="Bold" FontFamily="Segoe UI" Background="#E8F0FE" Foreground="#212121"/>
+            <Button Content="5" Click="Number_Click" Name="btn5" Width="40" Height="40" Margin="5" FontSize="18" FontWeight="Bold" FontFamily="Segoe UI" Background="#E8F0FE" Foreground="#212121"/>
+            <Button Content="6" Click="Number_Click" Name="btn6" Width="40" Height="40" Margin="5" FontSize="18" FontWeight="Bold" FontFamily="Segoe UI" Background="#E8F0FE" Foreground="#212121"/>
+            <Button Content="-" Click="Oper_Click" Name="btnminus" Width="40" Height="40" Margin="5" FontSize="18" FontWeight="Bold" FontFamily="Segoe UI" Background="#FFE0B2" Foreground="#E65100"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="1" Click="Number_Click" Name="btn1" Width="40" Height="40" Margin="5" FontSize="18" FontWeight="Bold" FontFamily="Segoe UI" Background="#E8F0FE" Foreground="#212121"/>
+            <Button Content="2" Click="Number_Click" Name="btn2" Width="40" Height="40" Margin="5" FontSize="18" FontWeight="Bold" FontFamily="Segoe UI" Background="#E8F0FE" Foreground="#212121"/>
+            <Button Content="3" Click="Number_Click" Name="btn3" Width="40" Height="40" Margin="5" FontSize="18" FontWeight="Bold" FontFamily="Segoe UI" Background="#E8F0FE" Foreground="#212121"/>
+            <Button Content="+" Click="Oper_Click" Name="btnadd" Width="40" Height="40" Margin="5" FontSize="18" FontWeight="Bold" FontFamily="Segoe UI" Background="#FFE0B2" Foreground="#E65100"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="0" Click="Number_Click" Name="btn0" Width="40" Height="40" Margin="5" FontSize="18" FontWeight="Bold" FontFamily="Segoe UI" Background="#E8F0FE" Foreground="#212121"/>
+            <Button Content="=" Click="btnequal_Click" Name="btnequal" Width="40" Height="40" Margin="5" FontSize="18" FontWeight="Bold" FontFamily="Segoe UI" Background="#C8E6C9" Foreground="#2E7D32"/>
+            <Button Content="c" Click="btnclear_Click" Name="btnclear" Width="40" Height="40" Margin="5" FontSize="18" FontWeight="Bold" FontFamily="Segoe UI" Background="#FFCDD2" Foreground="#C62828"/>
+            <Button Content="/" Click="Oper_Click" Name="btndivide" Width="40" Height="40" Margin="5" FontSize="18" FontWeight="Bold" FontFamily="Segoe UI" Background="#FFE0B2" Foreground="#E65100"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
+
+
+    
